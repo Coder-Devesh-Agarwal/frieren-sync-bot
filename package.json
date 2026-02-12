@@ -1,0 +1,35 @@
+{
+  "name": "frieren",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "css": "bunx @tailwindcss/cli -i tailwind.css -o styles.css",
+    "css:watch": "bunx @tailwindcss/cli -i tailwind.css -o styles.css --watch",
+    "dev": "bun run css && bun --hot index.ts",
+    "start": "bun run css && bun run index.ts",
+    "docker:up": "docker compose up --build",
+    "docker:down": "docker compose down"
+  },
+  "trustedDependencies": [
+    "puppeteer"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "otpauth": "^9.5.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.1.18",
+    "whatsapp-web.js": "^1.34.6"
+  }
+}

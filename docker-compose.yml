@@ -1,0 +1,14 @@
+services:
+  frieren:
+    build: .
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    environment:
+      - DB_PATH=/app/data/frieren.db
+    volumes:
+      # Persist SQLite database and WhatsApp session
+      - ./data:/app/data
+      - ./.wwebjs_auth:/app/.wwebjs_auth
+    restart: unless-stopped
