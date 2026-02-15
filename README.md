@@ -1,7 +1,14 @@
-# Frieren Sync Bot
+<div align="center" id="top">
+  <a href="https://agno.com">
+    <picture>
+      <img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/95109a54-8073-4d60-b02a-a006dde4b5fc" style="border-radius: 100%; width: 150px; height: 150px; overflow: none;" />
+    </picture>
+  </a>
+</div>
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/95109a54-8073-4d60-b02a-a006dde4b5fc" />
-Frieren Whatsapp - This is a fun bot which syncs whatsApp messages from one group to another. With A Frontend as well.
+<p align="center">
+  Frieren Sync Bot - This is a fun bot which syncs whatsApp messages from one group to another. With A Frontend as well.
+</p>
 
 ## Login Bot Interface
 <img width="1800" height="987" alt="image" src="https://github.com/user-attachments/assets/cac9c14c-9266-4005-97c0-a457ffcfdfb1" />
